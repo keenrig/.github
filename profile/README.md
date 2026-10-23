@@ -28,7 +28,7 @@ disconnected and everything keeps running.
 
 - **App catalog** — n8n, Activepieces, Open WebUI and more, each pinned to an exact image digest
 - **Domains & HTTPS** — start on your server's IP; add your own domain, or a free `*.keenrig.com` name through the optional Console, later
-- **Backups** — scheduled, encrypted backups to local disk or S3-compatible storage
+- **Backups** — encrypted backups to a server folder, a NAS or your own S3 (scheduling in progress)
 - **Cloud optional** — pair with Keenrig Console for remote management, or never connect it; your apps run either way
 
 ```sh
