@@ -29,7 +29,7 @@ disconnected and everything keeps running.
 - **App catalog** — n8n, Activepieces, Open WebUI and more, each pinned to an exact image digest
 - **Domains & HTTPS** — start on your server's IP; add your own domain, or a free `*.keenrig.com` name through the optional Console, later
 - **Backups** — scheduled, encrypted backups to local disk or S3-compatible storage
-- **Single sign-on** — one login for the apps that support it
+- **Cloud optional** — pair with Keenrig Console for remote management, or never connect it; your apps run either way
 
 ```sh
 curl -fsSL https://get.keenrig.com | sudo sh
