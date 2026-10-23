@@ -1,0 +1,29 @@
+name: Bug report
+description: Something in Keenrig does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Keenrig version
+      description: Run `sudo /var/lib/keenrig/bin/keenrig-box --version`.
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Server
+      placeholder: Ubuntu 24.04, 2 GB RAM, Hetzner
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Output of `sudo journalctl -u keenrig-box -n 200`. Remove domains, IPs or tokens you do not want to share.
+      render: text

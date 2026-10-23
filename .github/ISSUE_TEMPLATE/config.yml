@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/keenrig/keenrig/blob/main/SECURITY.md
+    about: Please report security problems privately by email, not in a public issue.
+  - name: Questions and help
+    url: https://keenrig.com/en/docs/install
+    about: Read the install guide, or email hello@keenrig.com.

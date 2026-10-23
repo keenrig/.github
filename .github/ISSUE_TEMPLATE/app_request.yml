@@ -1,0 +1,22 @@
+name: App request
+description: Ask for an app to be added to the catalog
+labels: [catalog]
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App
+      placeholder: Nextcloud
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source code or Docker image
+      placeholder: https://github.com/nextcloud/server
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What would you use it for?
